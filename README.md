@@ -1,1 +1,1 @@
-# WCCT-2017-Sass-to-the-reCSSue
+WCCT 2017: Sass to the reCSSue
