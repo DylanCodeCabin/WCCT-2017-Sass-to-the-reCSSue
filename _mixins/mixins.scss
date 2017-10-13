@@ -1,0 +1,62 @@
+// MIXINS
+
+// Bold 
+
+%font-weight-bold {
+  font-weight: bold;
+}
+
+// Border radius
+
+@mixin border-radius ( $value: 2em ) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+
+  // Keeps background from overflowing out of borders 
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+// Transitions
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+// Hide elements
+
+@mixin hidden {
+	display: none;
+}
+
+// Opacity
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); // IE8 fallback
+}
+
+// Media queries
+
+@mixin wide {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+@mixin wider {
+    @media (min-width: 907px) {
+        @content;
+    }
+}
+@mixin widest {
+    @media (min-width: 1070px) {
+        @content;
+    }
+}
