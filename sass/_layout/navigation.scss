@@ -1,0 +1,31 @@
+// Navigation
+
+.storefront-primary-navigation {
+	@include widest {
+		background-color: $brand;
+	}
+	
+	ul {
+		li {
+			a {
+				color: $darkest;
+				@extend %font-weight-bold;
+				@include transition(color .3s ease);
+				&:hover {
+					background-color: $darken;
+					color: $lightest;
+				}
+			}
+		}
+	}
+}
+
+.site-header-cart {
+
+	.cart-contents {
+		@include widest {
+			padding: 1.618em 8%;
+		}
+	}
+	
+}

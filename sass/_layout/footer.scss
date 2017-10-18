@@ -1,0 +1,14 @@
+// FOOTER
+
+.site-footer {
+	background-color: $primary;
+	color: $darkest;
+	
+	a {
+		&:not(.button) {
+			color: $darkest;
+			@extend %font-weight-bold;
+		}
+	}
+
+}

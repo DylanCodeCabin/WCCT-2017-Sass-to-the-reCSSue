@@ -1,0 +1,67 @@
+// MAIN
+
+// Section titles
+
+.entry-title,
+.section-title {
+	@extend %font-weight-bold;
+	&.loaded {
+		&:after {
+			background-image: url(https://pbs.twimg.com/profile_images/914511436768038912/DIyOOwd8.jpg);
+			background-size: 200px 200px;
+			display: block;
+			margin: 20px auto;
+			width: 200px;
+			height: 200px;
+			content: '';
+			@include border-radius;
+			@include box-shadow(0px, 0px, 100px, $brand);
+			@include wide {
+				display: none;
+			}
+		}
+	}
+}
+
+// Products
+
+.products {
+	
+	li {
+		&:hover {
+			img {
+				@include opacity(1);
+			}
+		}
+	}
+
+	img {
+		@include opacity(0.8);
+	}
+
+	.count {
+		color: $brand;
+		@extend %font-weight-bold;
+	}
+
+	.onsale {
+		background-color: $sale;
+		border-color: $sale;
+		@extend %font-weight-bold;
+	}
+
+}
+
+// Buttons
+
+.button {
+	background-color: $brand;
+	color: $darkest;
+	@include transition(color .3s ease);
+	@include border-radius;
+	&:hover {
+		background-color: $darken;
+		color: $lightest;
+		@include box-shadow(0px, 0px, 50px, grey);
+	}
+}
