@@ -10,12 +10,12 @@ Template: Storefront
 
 -------------------------------------------------------------------------------------------*/
 
-@import 'Variables/variables.scss';
-@import 'Mixins/mixins.scss';
-@import 'Functions/functions.scss';
+@import 'variables/variables.scss';
+@import 'mixins/mixins.scss';
+@import 'functions/functions.scss';
 
-@import 'Layout/body.scss';
-@import 'Layout/header.scss';
-@import 'Layout/navigation.scss';
-@import 'Layout/main.scss';
-@import 'Layout/footer.scss';
+@import 'layout/body.scss';
+@import 'layout/header.scss';
+@import 'layout/navigation.scss';
+@import 'layout/main.scss';
+@import 'layout/footer.scss';
