@@ -1,15 +1,21 @@
 /*
 Theme Name: Sass to the ReCSSue
-Theme URI: http://www.woocommerce.com/
+Theme URI: https://woocommerce.com/storefront/
 Version: 1.0
-Description: Designed by <a href="http://www.woocommerce.com">WooCommerce</a>.
-Author: Gareth Allison and Job Thomas
+Description: Part of the workshop "Sass to the reCSSue" at WordCamp Cape Town 2017.
+Author: Job Thomas and Gareth Allison 
 Author URI: http://www.woocommerce.com
-Tags: woocommerce, sass, css
+Tags: woocommerce, storefront, sass, css
 Template: Storefront
 
 -------------------------------------------------------------------------------------------*/
 
-@import 'Variables/variables.scss';
-@import 'Mixins/mixins.scss';
-@import 'Functions/functions.scss';
+@import 'variables/variables.scss';
+@import 'mixins/mixins.scss';
+@import 'functions/functions.scss';
+
+@import 'layout/body.scss';
+@import 'layout/header.scss';
+@import 'layout/navigation.scss';
+@import 'layout/main.scss';
+@import 'layout/footer.scss';
