@@ -1,1 +1,15 @@
+/*
+Theme Name: Sass to the ReCSSue
+Theme URI: http://www.woocommerce.com/
+Version: 1.0
+Description: Designed by <a href="http://www.woocommerce.com">WooCommerce</a>.
+Author: Gareth Allison and Job Thomas
+Author URI: http://www.woocommerce.com
+Tags: woocommerce, sass, css
+Template: Storefront
 
+-------------------------------------------------------------------------------------------*/
+
+@import 'Variables/variables.scss';
+@import 'Mixins/mixins.scss';
+@import 'Functions/functions.scss';
