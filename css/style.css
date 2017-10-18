@@ -1,0 +1,116 @@
+/*
+Theme Name: Sass to the ReCSSue
+Theme URI: https://woocommerce.com/storefront/
+Version: 1.0
+Description: Part of the workshop "Sass to the reCSSue" at WordCamp Cape Town 2017.
+Author: Job Thomas and Gareth Allison 
+Author URI: http://www.woocommerce.com
+Tags: woocommerce, storefront, sass, css
+Template: Storefront
+
+-------------------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Athiti|Domine");
+.site-header .site-branding .site-description, .storefront-primary-navigation ul li a, .entry-title,
+.section-title, .products .count, .products .onsale, .site-footer a:not(.button) {
+  font-weight: bold; }
+
+body {
+  background-color: #f7f7f7;
+  font-family: "Athiti", Helvetica, Arial, san-serif; }
+
+.site-header {
+  background-color: #b0dbd2;
+  border-bottom: none; }
+  @media (min-width: 1070px) {
+    .site-header .site-branding {
+      padding-bottom: 2.6em; } }
+  .site-header .site-branding .site-title,
+  .site-header .site-branding .site-description {
+    color: #000; }
+  .site-header .site-search input[type=search] {
+    background-color: #f3deb3 !important;
+    box-shadow: none; }
+
+@media (min-width: 1070px) {
+  .storefront-primary-navigation {
+    background-color: #f3a591; } }
+
+.storefront-primary-navigation ul li a {
+  color: #000;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+  .storefront-primary-navigation ul li a:hover {
+    background-color: black;
+    color: #fff; }
+
+@media (min-width: 1070px) {
+  .site-header-cart .cart-contents {
+    padding: 1.618em 8%; } }
+
+.entry-title.loaded:after,
+.section-title.loaded:after {
+  background-image: url(https://pbs.twimg.com/profile_images/914511436768038912/DIyOOwd8.jpg);
+  background-size: 200px 200px;
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  content: '';
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0px 0px 100px #f3a591;
+  -moz-box-shadow: 0px 0px 100px #f3a591;
+  box-shadow: 0px 0px 100px #f3a591; }
+  @media (min-width: 768px) {
+    .entry-title.loaded:after,
+    .section-title.loaded:after {
+      display: none; } }
+
+.products li:hover img {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+.products img {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.products .count {
+  color: #f3a591; }
+
+.products .onsale {
+  background-color: #f3deb3;
+  border-color: #f3deb3; }
+
+.button {
+  background-color: #f3a591;
+  color: #000;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box; }
+  .button:hover {
+    background-color: black;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 50px grey;
+    -moz-box-shadow: 0px 0px 50px grey;
+    box-shadow: 0px 0px 50px grey; }
+
+.site-footer {
+  background-color: #b0dbd2;
+  color: #000; }
+  .site-footer a:not(.button) {
+    color: #000; }
