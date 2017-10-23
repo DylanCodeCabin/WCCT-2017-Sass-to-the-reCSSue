@@ -4,3 +4,10 @@ body {
 	background-color: $secondary;
 	font-family: $font-aux;
 }
+
+h1, 
+h2, 
+h3, 
+.site-title {
+    font-family: $font-main;
+}
