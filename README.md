@@ -5,6 +5,6 @@ A repo for those attending the **Sass to the reCSSue** workshop at <a href="http
 Example site used in the workshop: https://wcct2017.mystagingwebsite.com/
 
 <h2>Resources</h2>
-- [Sass official site](http://sass-lang.com/)
-- [CodeKit](https://codekitapp.com/)
-- [Grunt.js](https://gruntjs.com/)
+- Sass official site: sass-lang.com/
+- CodeKit: codekitapp.com/
+- Grunt: gruntjs.com/
