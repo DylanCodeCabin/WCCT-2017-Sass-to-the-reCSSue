@@ -12,7 +12,9 @@ Example site used in the workshop: https://wcct2017.mystagingwebsite.com/
 
 - <a href="https://gruntjs.com/" target="blank">Grunt</a>
 
-- <a href="https://github.com/sass/node-sass" target="blank">npm</a>
+- <a href="https://github.com/sass/node-sass" target="blank">Scout-App</a> (free, open source)
+
+- <a href="http://scout-app.io/" target="blank">npm</a>
 
 - <a href="https://prepros.io/" target="blank">Prepros (Windows, Mac, Linux)
 
