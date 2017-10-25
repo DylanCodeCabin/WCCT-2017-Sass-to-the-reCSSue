@@ -8,6 +8,8 @@ Example site used in the workshop: https://wcct2017.mystagingwebsite.com/
 
 - Sass official site: https://sass-lang.com/
 
-- CodeKit: https://codekitapp.com/
+- CodeKit (Mac OS only): https://codekitapp.com/
 
 - Grunt: https://gruntjs.com/
+
+- Prepros (Windows, Mac, Linux): https://prepros.io/
