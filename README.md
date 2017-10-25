@@ -6,10 +6,16 @@ Example site used in the workshop: https://wcct2017.mystagingwebsite.com/
 
 <h2>Resources</h2>
 
-- Sass official site: https://sass-lang.com/
+- <a href="https://sass-lang.com/" target="blank">Sass official site</a>
 
-- CodeKit (Mac OS only): https://codekitapp.com/
+- <a href="https://codekitapp.com/" target="blank">CodeKit (Mac OS only)</a>
 
-- Grunt: https://gruntjs.com/
+- <a href="https://gruntjs.com/" target="blank">Grunt</a>
 
-- Prepros (Windows, Mac, Linux): https://prepros.io/
+- <a href="https://github.com/sass/node-sass" target="blank">npm</a>
+
+- <a href="https://prepros.io/" target="blank">Prepros (Windows, Mac, Linux)
+
+<h3>Slides</h3>
+
+- Slides from this workshop: https://job.blog/
