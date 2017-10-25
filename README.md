@@ -18,4 +18,4 @@ Example site used in the workshop: https://wcct2017.mystagingwebsite.com/
 
 <h3>Slides</h3>
 
-- Slides from this workshop: https://job.blog/
+- <a href="https://job.blog/" target="blank">Slides from this workshop</a>
